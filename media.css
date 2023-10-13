@@ -1,0 +1,132 @@
+@media (max-width: 1400px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+  }
+  .header__nav{
+    width: 100%;
+    height: 100%;
+  }
+  .header__line{
+    width: 100%;
+  }
+  .main__cards{
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+    .container {
+      max-width: 720px;
+    }
+    .advice__cards{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .advice__text{
+      max-width: 250px;
+    }
+    .advice__name{
+      max-width: 250px;
+    }
+    .advice__card, .advice__card1{
+      text-align: center;
+      margin: none;
+      transform: translateX(0);
+      margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+      max-width: 540px;
+    }
+    .card3{
+      width: 100%;
+    }
+    .watch__cards{
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+    
+ 
+    }
+    .watch__card{
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .footer{
+      height: 100%;
+      /* height: 1700px; */
+    }
+    .footer__container{
+      flex-direction: column;
+      text-align: center;
+    }
+    .advice__cards{
+      row-gap: 20px;
+    }
+    .footer__item3{
+      transform: translateY(0);
+      text-align: center;
+    }
+    .footer__icons{
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .footer__phone{
+      justify-content: center;
+    }
+    .footer__item1{
+      transform: translateY(-100px);
+    }
+    .footer__phone{
+      margin: 0 auto;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+      max-width: auto;
+    }
+    .header__nav, .container{
+      flex-direction: column;
+    }
+    .header__list{
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .pr{
+      text-align: center;
+      margin: 0 auto;
+    }
+    .card1, .card2{
+      width: 100%;
+    }
+    .desc{
+      flex-direction: column;
+    }
+    .prr{
+      margin: 0 auto;
+      margin-bottom: 70px;
+    }
+}
+@media (max-width: 400px){
+  .watch__li{
+    transform: translateX(-80px) translateY(20px);
+  }
+  .watch__li5{
+    transform: translateX(-10px) translateX(80px);
+    
+  }
+}
